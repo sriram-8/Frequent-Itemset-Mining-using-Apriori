@@ -85,6 +85,7 @@ class TransactionManager(object):
                 sum_indexes = indexes
             else:
                 # Calculate the intersection on not the first time.
+                #And Assign the Indexes
                 sum_indexes = sum_indexes.intersection(indexes)
 
         # Calculate and return the support.
