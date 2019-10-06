@@ -11,6 +11,10 @@ Created on Tue Apr 30 09:50:54 2019
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
+
+# To read the dataset
+dataset= os.listdir('Market_Basket_Optimisation.csv')
 
 # Data Preprocessing
 dataset = pd.read_csv('Market_Basket_Optimisation.csv', header = None)
